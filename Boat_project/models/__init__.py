@@ -1,8 +1,10 @@
-from .Boat import Boat
-from .Weather import Weather
-from .Anchor import Anchor
-from .Equipment import Equipment
-from .Oar import Oar
-from .Passenger import Passenger
-from .Rowlock import Rowlock
-from .Weight import Weight
+"""Пакет models"""
+
+from .boat import Boat
+from .weather import Weather
+from .anchor import Anchor
+from .equipment import Equipment
+from .oar import Oar
+from .passenger import Passenger
+from .rowlock import Rowlock
+from .weight import Weight

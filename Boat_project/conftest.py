@@ -1,11 +1,11 @@
 import pytest
+from models import Boat, Weather, Rowlock, Oar, Anchor, Passenger
 
-from models import *
 
 @pytest.fixture()
 def prepare_boat():
     """Фикстура для предподготовки лодки к тесту и отправки на хранение, общие шаги ТК №7-8"""
-    
+
     boat_carolina = Boat()
     boat_carolina.check_boat_availability(True)
     weather1 = Weather(5)
@@ -27,7 +27,7 @@ def prepare_boat():
     if oar_left.hand not in boat_carolina.oars:
         oar_left.attach(boat_carolina)
     if oar_right.hand not in boat_carolina.oars:
-        oar_right.attach(boat_carolina)   
+        oar_right.attach(boat_carolina)
     boat_carolina.row_degree(5, 10, 2)
     boat_carolina.set_ashore()
     print(boat_carolina.weights)

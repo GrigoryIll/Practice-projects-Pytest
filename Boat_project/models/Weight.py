@@ -3,4 +3,3 @@ class Weight:
 
     def __init__(self, weight: int):
         self.weight = weight
-    
