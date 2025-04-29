@@ -1,6 +1,6 @@
 ## Тест-кейсы
 Тест кейсы выполнены в TMS TestIT.
-В файле ["Test_cases.xlsx"](Test_cases.xlsx) тесты выгружены в формате xlsx. Также, приложил те же тесты в формате [Test_cases.pdf](Test_cases.pdf)
+В файле ["Test_cases_tables.pdf"](Test_cases_tables.pdf) тесты выгружены в формате таблицы из TestIT. Также, приложил те же тесты в формате интерфейса TestIT [Test_cases.pdf](Test_cases.pdf)
 
 ## Реализация
 В папке [models](models) реализованы классы для создания и управления лодкой.
