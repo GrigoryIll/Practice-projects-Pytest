@@ -6,7 +6,7 @@ class Weather:
         self.weather_status = False
 
     def check_weather(self):
-        """Прикрепляем погоду для возможности проведения тестов"""
+        """Проверяем погоду для возможности проведения тестов"""
 
         if self.wind_speed > 5:
             raise ValueError("Погода неудовлетворительная")
